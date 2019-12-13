@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* header부분 */
+header{
+background-color:#35256b;
+position:fixed;
+width:100%;
+top:0;
+left:0;
+z-index: 1;
+}
+ul.nav{
+float: right;
+list-style:none;
+margin: auto;
+width:22%;
+}
+ul.nav li{
+float:left;
+}
+ul.nav li a{
+
+line-height:35px;
+color:rgb(255, 255, 255);
+padding:0 20px;
+text-decoration: none;
+font-size: 12px;
+}
+
+nav.mid-util{
+}
+
+div.test{
+/* margin: auto; */
+width: 100%;
+top:0;
+left:0;
+padding-top: 5%;
+padding-bottom: 3%;
+background-color:#261049;
+position:absolute;
+/* margin: auto; */
+/* padding-left: 50%; */
+/* padding-right: 50%; */
+/* width:50%; */
+}
+
+ul.nav-mid{
+text-align: center;
+/* float: center; */
+/* list-style:none; */
+margin: auto;
+}
+ul.nav-mid li{
+display: inline-block;
+}
+ul.nav-mid li a{
+
+line-height:35px;
+color:rgb(255, 255, 255);
+padding:0 20px;
+text-decoration: none;
+font-size: 17px;
+font:ico;
+
+}
+
+/* memberEnroll 회원가입부분 */
+form#enrollInfo {
+	position: relative;
+	left: 30%;
+   }
+form#enrollInfo input, select {
+    height: 28px;
+    border-radius: 4px;
+}
+
+
